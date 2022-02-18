@@ -3,7 +3,11 @@ import React from 'react'
 interface CountdownProps {}
 
 const Countdown: StorefrontFunctionComponent<CountdownProps> = ({}) => {
-  return <div />
+  return (
+    <>
+      <h1>Countdown Test</h1>
+    </>
+  )
 }
 
 Countdown.schema = {
